@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 30px;
+}
+input:first-child{
+    grid-column: 1 / -2;
+    text-align: right;
+}
+input{
+    font-size: 2rem;
+}
+
+.char{
+    background: navy;
+    color: #ffffff;
+}
+
+#CLR, #del{
+    background: red;
+}
+
+#senden{
+    background: yellowgreen;
+}

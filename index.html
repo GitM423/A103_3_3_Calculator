@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="body">
+    <div>
+        <input type="text" id="input" placeholder="Enter Calculation" value="">
+        <input type="button" id="del" value="&larr;" onclick="del()">
+
+        <input type="button" value="7" onclick="enter(7)">
+        <input type="button" value="8" onclick="enter(8)">
+        <input type="button" value="9" onclick="enter(9)">
+        <input type="button" value="/" onclick="enter('\/')" class="char">
+
+        <input type="button" value="4" onclick="enter(4)">
+        <input type="button" value="5" onclick="enter(5)">
+        <input type="button" value="6" onclick="enter(6)">
+        <input type="button" value="*" onclick="enter('\*')" class="char">
+
+        <input type="button" value="1" onclick="enter(1)">
+        <input type="button" value="2" onclick="enter(2)">
+        <input type="button" value="3" onclick="enter(3)">
+        <input type="button" value="-" onclick="enter('\-')" class="char">
+
+        <input type="button" value="." onclick="enter('\.')">
+        <input type="button" value="0" onclick="enter(0)">
+        <input type="button" value="E" onclick="enter('e')">
+        <input type="button" value="+" onclick="enter('\+')" class="char">
+
+        <input type="button" value="(" onclick="enter('\(')" class="char">
+        <input type="button" value=")" onclick="enter('\)')" class="char">
+        <input type="button" id="CLR" onclick="clr()" value="CLR">
+        <input type="button" id="senden" value="=" onclick="calc()">
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
