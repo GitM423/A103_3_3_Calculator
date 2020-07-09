@@ -6,7 +6,7 @@ function enter(element) {
 }
 function calc() {
     console.log("calc")
-    input.value = eval(input.value).toFixed(2)
+    input.value = Number(eval(input.value).toFixed(2))
     console.log(input.value)
 }
 function del() {
